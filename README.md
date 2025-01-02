@@ -1,6 +1,6 @@
-# RippleFox Wallet (A Desktop Client for Ripple)
+# Ripple Wallet (A Desktop Client for Ripple)
 
-Foxlet allows you to encrypt your mnemonic/secret key and store it as a file locally on your computer. You can use it on Windows, Linux and Mac.
+Wallet allows you to encrypt your mnemonic/secret key and store it as a file locally on your computer. You can use it on Windows, Linux and Mac.
 
 ## Key Features
 
@@ -10,7 +10,6 @@ Foxlet allows you to encrypt your mnemonic/secret key and store it as a file loc
 - Buy/sell ripples, assets and tokens.
 - Manage trust lines, account data.
 - View balances and history.
-- [Federation protocol](https://github.com/ripplefox/ripplewallet/wiki/Federation-Protocol) support.
 
 ## Build
 
@@ -22,15 +21,15 @@ You should have Node.js installed. If not, install it ([Node version manager](ht
 
 You may notice that the packages also include [ripplelib](https://github.com/ripplerm/ripplelib) (a fork from ripple-lib-0.12, written by ripplerm). We just use ripplelib to parse the transactions. The ripplelib.Amount class is quite powerful.
 
-# 瑞狐钱包
+# 瑞波钱包
 
-瑞狐钱包是一个去中心化的瑞波钱包。它是一个注重安全的，功能完备的瑞波客户端。它不存储任何用户信息（密码、私钥等），用户自己为安全负责，完全掌握自己的数字资产。
+瑞波钱包是一个去中心化的瑞波钱包。它是一个注重安全的，功能完备的瑞波客户端。它不存储任何用户信息（密码、私钥等），用户自己为安全负责，完全掌握自己的数字资产。
 
 
 ## 为什么需要这个钱包？
 
 - 人民需要什么样的钱包，我们就写什么样的钱包。
-- 强大的交易、兑换、发送、管理功能。而且支持[联邦协议](https://github.com/ripplefox/ripplewallet/wiki/Federation-Protocol)的Dapp。
+- 强大的交易、兑换、发送、管理功能。
 - 更安全的备份支持。
 - 用最新的开发包，本地签名后再与瑞波网络交互。
 - 连接最快的服务器，优化中国区的访问。
